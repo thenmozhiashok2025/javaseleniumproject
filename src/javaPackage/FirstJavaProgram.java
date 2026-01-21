@@ -1,0 +1,13 @@
+package javaPackage;
+
+public class FirstJavaProgram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*Multiline
+		 comment */
+		System.out.println("Hello and welcome to java Relearn");
+
+	}
+
+}
