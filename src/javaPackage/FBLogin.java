@@ -10,7 +10,8 @@ public class FBLogin {
 
 	public static void main(String[] args) {
 		// Launch of google chrome
-System.setProperty("webdriver.chrome.driver","C:\\Users\\honey\\Desktop\\selenium course\\chromedriver-win64\\chromedriver-win64.exe");
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\honey\\Desktop\\selenium course\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+//System.setProperty("webdriver.chrome.driver", "C:\\Users\\honey\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 
 WebDriver driver = new ChromeDriver();
 
