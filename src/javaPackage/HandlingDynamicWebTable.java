@@ -24,6 +24,13 @@ public class HandlingDynamicWebTable {
 		for (WebElement Company : allCompanies) {
 			System.out.println(Company.getText());
 		}
+		
+		List <WebElement> allGroup = driver.findElements(By.xpath("//table[@class='dataTable']/tbody/tr/td[2]"));
+		System.out.println("Total Group"+ allGroup.size());
+		
+		for (WebElement Group : allGroup) {
+			System.out.println(Group.getText());
+		}
 	}
 
 }
